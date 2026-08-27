@@ -1,0 +1,59 @@
+{
+  "TranslationProperties": {
+    "Name": "nonsinn_mining.items.NonSinn_Bergbauhammer_Thorium.name",
+    "Description": "nonsinn_mining.items.NonSinn_Bergbauhammer_Thorium.description"
+  },
+  "Parent": "Tool_Pickaxe_Thorium",
+  "Icon": "Icons/ItemsGenerated/NonSinn_Bergbauhammer_Thorium.png",
+  "Categories": [
+    "Items.Tools"
+  ],
+  "Quality": "Rare",
+  "ItemLevel": 35,
+  "MaxStack": 1,
+  "Model": "Items/NonSinn/MiningTweaks/Bergbauhammer_Thorium.blockymodel",
+  "Texture": "Items/NonSinn/MiningTweaks/Bergbauhammer_Thorium_Texture.png",
+  "PlayerAnimationsId": "Pickaxe",
+  "Recipe": {
+    "TimeSeconds": 10.0,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Thorium",
+        "Quantity": 18
+      },
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ingredient_Leather_Medium",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Purple",
+        "Quantity": 4
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "NonSinn_Mining_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "NonSinn_Mining_Hammers"
+        ],
+        "RequiredTierLevel": 2
+      }
+    ]
+  },
+  "MaxDurability": 850,
+  "Repairable": false,
+  "Tags": {
+    "Type": [
+      "Tool"
+    ],
+    "Family": [
+      "NonSinnMining"
+    ]
+  }
+}

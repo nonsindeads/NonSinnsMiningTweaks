@@ -1,0 +1,43 @@
+{
+  "TranslationProperties": {
+    "Name": "nonsinn_mining.items.NonSinn_Action_Calibrate_Stabilitaet_Thorium.name",
+    "Description": "nonsinn_mining.items.NonSinn_Action_Calibrate_Stabilitaet_Thorium.description"
+  },
+  "Parent": "Ingredient_Bar_Thorium",
+  "Icon": "Icons/ItemsGenerated/NonSinn_Mod_Stabilitaet_Base.png",
+  "Categories": [],
+  "Quality": "Epic",
+  "MaxStack": 1,
+  "Recipe": {
+    "TimeSeconds": 2.0,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ItemId": "NonSinn_Resonanzrohling_Thorium",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Crystal_White",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "NonSinn_Modifier_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "NonSinn_Modifier_Calibration"
+        ],
+        "RequiredTierLevel": 2
+      }
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ],
+    "Family": [
+      "NonSinnForgeAction"
+    ]
+  }
+}

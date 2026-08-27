@@ -1,0 +1,21 @@
+{
+  "TranslationProperties": {
+    "Name": "nonsinn_mining.items.NonSinn_Mod_Fernschuss_Standard.name",
+    "Description": "nonsinn_mining.items.NonSinn_Mod_Fernschuss_Standard.description"
+  },
+  "Parent": "Ingredient_Crystal_Purple",
+  "Icon": "Icons/ItemsGenerated/NonSinn_Mod_Tempo_Standard.png",
+  "Quality": "Uncommon",
+  "MaxStack": 10,
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ],
+    "Family": [
+      "NonSinnModifier"
+    ]
+  },
+  "Model": "Resources/Ores/Gem.blockymodel",
+  "Texture": "Resources/Ores/Gem_Textures/Topaz.png",
+  "PlayerAnimationsId": "Item"
+}

@@ -1,0 +1,22 @@
+{
+  "Group": "NonSinn",
+  "Name": "MiningTweaks",
+  "Version": "2.8.0",
+  "Description": "Configurable 3x3 mining hammers and area shovels with progression, tool recycling, modifiers and custom workbenches.",
+  "Authors": [
+    {
+      "Name": "NonSinn",
+      "Url": "https://github.com/nonsindeads/NonSinnsMiningTweaks"
+    }
+  ],
+  "ServerVersion": "*",
+  "Dependencies": {
+    "Hytale:EntityModule": "*",
+    "Hytale:BlockModule": "*",
+    "Config:Endgame&QoL": "*"
+  },
+  "OptionalDependencies": {},
+  "DisabledByDefault": false,
+  "Main": "dev.nonsinn.miningtweaks.MiningTweaksPlugin",
+  "IncludesAssetPack": true
+}

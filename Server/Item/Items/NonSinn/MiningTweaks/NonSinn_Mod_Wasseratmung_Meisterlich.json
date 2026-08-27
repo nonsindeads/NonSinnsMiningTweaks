@@ -1,0 +1,21 @@
+{
+  "TranslationProperties": {
+    "Name": "nonsinn_mining.items.NonSinn_Mod_Wasseratmung_Meisterlich.name",
+    "Description": "nonsinn_mining.items.NonSinn_Mod_Wasseratmung_Meisterlich.description"
+  },
+  "Parent": "Ingredient_Crystal_Blue",
+  "Icon": "Icons/ItemsGenerated/NonSinn_Mod_Tempo_Standard.png",
+  "Quality": "Epic",
+  "MaxStack": 10,
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ],
+    "Family": [
+      "NonSinnModifier"
+    ]
+  },
+  "Model": "Resources/Ores/Gem.blockymodel",
+  "Texture": "Resources/Ores/Gem_Textures/Sapphire.png",
+  "PlayerAnimationsId": "Item"
+}

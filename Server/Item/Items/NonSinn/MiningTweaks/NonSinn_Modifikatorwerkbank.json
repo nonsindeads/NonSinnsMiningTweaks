@@ -1,0 +1,87 @@
+{
+  "TranslationProperties": {
+    "Name": "nonsinn_mining.items.NonSinn_Modifikatorwerkbank.name",
+    "Description": "nonsinn_mining.items.NonSinn_Modifikatorwerkbank.description"
+  },
+  "Icon": "Icons/ItemsGenerated/NonSinn_Modifikatorwerkbank.png",
+  "Categories": ["Furniture.Benches"],
+  "Recipe": {
+    "TimeSeconds": 20.0,
+    "KnowledgeRequired": false,
+    "Input": [
+      {"ItemId": "NonSinn_Bergbauwerkbank", "Quantity": 1},
+      {"ItemId": "Ingredient_Bar_Thorium", "Quantity": 12},
+      {"ItemId": "Ingredient_Bar_Iron", "Quantity": 16},
+      {"ItemId": "NonSinn_Resonanzsplitter", "Quantity": 20},
+      {"ItemId": "Ingredient_Crystal_Purple", "Quantity": 4}
+    ],
+    "BenchRequirement": [{"Id": "NonSinn_Mining_Bench", "Type": "Crafting", "Categories": ["NonSinn_Mining_Stations"], "RequiredTierLevel": 2}]
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "Light": {
+      "Color": "#29c",
+      "Radius": 0
+    },
+    "Particles": [
+      {
+        "SystemId": "Block_Gem_Sparks",
+        "TargetNodeName": "Effect_Core_Resonance",
+        "Scale": 0.55
+      }
+    ],
+    "CustomModel": "Blocks/NonSinn/MiningTweaks/Modifikatorwerkbank.blockymodel",
+    "CustomModelTexture": [{"Texture": "Blocks/NonSinn/MiningTweaks/Modifikatorwerkbank_Texture.png", "Weight": 1}],
+    "VariantRotation": "NESW",
+    "HitboxType": "Bench_Alchemy",
+    "Bench": {
+      "Type": "Crafting",
+      "Id": "NonSinn_Modifier_Bench",
+      "Categories": [
+        {"Id": "NonSinn_Modifier_Parts", "Icon": "Icons/CraftingCategories/MiningTweaks/ResonanceTechnology.png", "Name": "nonsinn_mining.benchCategories.modifierParts"},
+        {"Id": "NonSinn_Modifier_Calibration", "Icon": "Icons/CraftingCategories/MiningTweaks/Calibration.png", "Name": "nonsinn_mining.benchCategories.calibration"},
+        {"Id": "NonSinn_Modifier_Fusion", "Icon": "Icons/CraftingCategories/MiningTweaks/Recycling.png", "Name": "nonsinn_mining.benchCategories.fusion"}
+      ],
+      "LocalOpenSoundEventId": "SFX_Workbench_Open",
+      "LocalCloseSoundEventId": "SFX_Workbench_Close",
+      "CompletedSoundEventId": "SFX_Workbench_Craft",
+      "FailedSoundEventId": "SFX_Generic_Crafting_Failed",
+      "BenchUpgradeSoundEventId": "SFX_Workbench_Upgrade_Start_Default",
+      "BenchUpgradeCompletedSoundEventId": "SFX_Workbench_Upgrade_Complete_Default",
+      "TierLevels": [
+        {
+          "CraftingTimeReductionModifier": 0.0,
+          "UpgradeRequirement": {
+            "Material": [
+              {"ItemId": "NonSinn_Resonanzsplitter", "Quantity": 40},
+              {"ItemId": "Ingredient_Bar_Thorium", "Quantity": 16},
+              {"ItemId": "Ingredient_Bar_Cobalt", "Quantity": 8},
+              {"ItemId": "Ingredient_Crystal_Purple", "Quantity": 6},
+              {"ItemId": "Ingredient_Crystal_White", "Quantity": 4}
+            ],
+            "TimeSeconds": 20.0
+          }
+        },
+        {
+          "CraftingTimeReductionModifier": 0.2
+        }
+      ]
+    },
+    "BlockEntity": {"Components": {"BenchBlock": {}}},
+    "Gathering": {"Breaking": {"GatherType": "Benches"}},
+    "BlockParticleSetId": "Wood",
+    "ParticleColor": "#59402f",
+    "BlockSoundSetId": "Wood",
+    "PhysicalMaterialId": "Wood",
+    "Support": {"Down": [{"FaceType": "Full"}]},
+    "TextureComputedColor": "#49372d"
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {"Scale": 0.35, "Rotation": [22.5, 45.0, 22.5], "Translation": [11.4, -18.6]},
+  "Tags": {"Type": ["Bench"], "Family": ["NonSinnMining"]},
+  "MaxStack": 1,
+  "ItemLevel": 35,
+  "ItemSoundSetId": "ISS_Blocks_Wood"
+}

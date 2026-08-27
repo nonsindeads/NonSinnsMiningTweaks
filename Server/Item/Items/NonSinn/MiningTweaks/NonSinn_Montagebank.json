@@ -1,0 +1,69 @@
+{
+  "TranslationProperties": {
+    "Name": "nonsinn_mining.items.NonSinn_Montagebank.name",
+    "Description": "nonsinn_mining.items.NonSinn_Montagebank.description"
+  },
+  "Icon": "Icons/ItemsGenerated/NonSinn_Montagebank.png",
+  "Categories": ["Furniture.Benches"],
+  "Recipe": {
+    "TimeSeconds": 10.0,
+    "KnowledgeRequired": false,
+    "Input": [
+      {"ItemId": "Ingredient_Bar_Iron", "Quantity": 8},
+      {"ItemId": "Ingredient_Bar_Thorium", "Quantity": 4},
+      {"ItemId": "NonSinn_Resonanzsplitter", "Quantity": 3},
+      {"ItemId": "Ingredient_Crystal_Purple", "Quantity": 2}
+    ],
+    "BenchRequirement": [{
+      "Id": "NonSinn_Modifier_Bench",
+      "Type": "Crafting",
+      "Categories": ["NonSinn_Modifier_Parts"],
+      "RequiredTierLevel": 1
+    }]
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "Light": {
+      "Color": "#176",
+      "Radius": 0
+    },
+    "Particles": [
+      {
+        "SystemId": "Block_Gem_Sparks",
+        "TargetNodeName": "Effect_Core_Assembly",
+        "Scale": 0.2
+      }
+    ],
+    "CustomModel": "Blocks/NonSinn/MiningTweaks/Montagebank.blockymodel",
+    "CustomModelTexture": [{"Texture": "Blocks/NonSinn/MiningTweaks/Montagebank_Texture.png", "Weight": 1}],
+    "VariantRotation": "NESW",
+    "HitboxType": "Bench_Weapon",
+    "Flags": {"IsUsable": true},
+    "Interactions": {
+      "Use": {
+        "Interactions": [{
+          "Type": "OpenCustomUI",
+          "Page": {"Id": "NonSinnModifierAssembly"}
+        }]
+      }
+    },
+    "Gathering": {"Breaking": {"GatherType": "Benches"}},
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#5C583E",
+    "BlockSoundSetId": "Stone",
+    "Support": {"Down": [{"FaceType": "Full"}]},
+    "TextureComputedColor": "#473326"
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.37,
+    "Translation": [18.7, -15],
+    "Rotation": [22.5, 45, 22.5]
+  },
+  "Tags": {"Type": ["Bench"], "Family": ["NonSinnMining"]},
+  "MaxStack": 1,
+  "ItemLevel": 35,
+  "ItemSoundSetId": "ISS_Blocks_Wood"
+}

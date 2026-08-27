@@ -1,0 +1,20 @@
+{
+  "TranslationProperties": {"Name": "nonsinn_mining.items.NonSinn_Flaechenschaufel_Thorium.name", "Description": "nonsinn_mining.items.NonSinn_Flaechenschaufel_Thorium.description"},
+  "Parent": "Tool_Shovel_Thorium",
+  "Icon": "Icons/ItemsGenerated/NonSinn_Flaechenschaufel_Thorium.png",
+  "Categories": ["Items.Tools"],
+  "Quality": "Rare",
+  "ItemLevel": 35,
+  "MaxStack": 1,
+  "Model": "Items/NonSinn/MiningTweaks/Flaechenschaufel_Thorium.blockymodel",
+  "Texture": "Items/NonSinn/MiningTweaks/Flaechenschaufel_Thorium_Texture.png",
+  "Recipe": {
+    "TimeSeconds": 9.0,
+    "KnowledgeRequired": false,
+    "Input": [{"ItemId": "Ingredient_Bar_Thorium", "Quantity": 12}, {"ItemId": "Ingredient_Bar_Iron", "Quantity": 6}, {"ItemId": "Ingredient_Leather_Medium", "Quantity": 4}, {"ItemId": "Ingredient_Crystal_Purple", "Quantity": 2}],
+    "BenchRequirement": [{"Id": "NonSinn_Mining_Bench", "Type": "Crafting", "Categories": ["NonSinn_Mining_Shovels"], "RequiredTierLevel": 2}]
+  },
+  "MaxDurability": 600,
+  "Repairable": false,
+  "Tags": {"Type": ["Tool"], "Family": ["NonSinnMining"]}
+}

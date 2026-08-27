@@ -1,0 +1,47 @@
+{
+  "TranslationProperties": {
+    "Name": "nonsinn_mining.items.NonSinn_Action_Focus_Tempo.name",
+    "Description": "nonsinn_mining.items.NonSinn_Action_Focus_Tempo.description"
+  },
+  "Parent": "Ingredient_Bar_Iron",
+  "Icon": "Icons/ItemsGenerated/NonSinn_Mod_Tempo_Base.png",
+  "Categories": [],
+  "Quality": "Rare",
+  "MaxStack": 1,
+  "Recipe": {
+    "TimeSeconds": 1.5,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ItemId": "NonSinn_Resonanzrohling",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Endgame_Swamp_Crocodile_Scale",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "NonSinn_Resonanzfokuskern",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "NonSinn_Modifier_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "NonSinn_Modifier_Calibration"
+        ],
+        "RequiredTierLevel": 2
+      }
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ],
+    "Family": [
+      "NonSinnForgeAction"
+    ]
+  }
+}

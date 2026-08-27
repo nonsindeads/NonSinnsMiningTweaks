@@ -1,0 +1,43 @@
+{
+  "TranslationProperties": {
+    "Name": "nonsinn_mining.items.NonSinn_Action_Fuse_Haltbarkeit_Meisterlich.name",
+    "Description": "nonsinn_mining.items.NonSinn_Action_Fuse_Haltbarkeit_Meisterlich.description"
+  },
+  "Parent": "Ingredient_Bar_Thorium",
+  "Icon": "Icons/ItemsGenerated/NonSinn_Mod_Haltbarkeit_Meisterlich.png",
+  "Categories": [],
+  "Quality": "Epic",
+  "MaxStack": 1,
+  "Recipe": {
+    "TimeSeconds": 3.0,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ItemId": "NonSinn_Mod_Haltbarkeit_Praezise",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "NonSinn_Resonanzsplitter",
+        "Quantity": 16
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "NonSinn_Modifier_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "NonSinn_Modifier_Fusion"
+        ],
+        "RequiredTierLevel": 2
+      }
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ],
+    "Family": [
+      "NonSinnForgeAction"
+    ]
+  }
+}

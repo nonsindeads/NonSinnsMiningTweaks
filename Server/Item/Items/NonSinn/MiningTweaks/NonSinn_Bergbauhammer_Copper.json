@@ -1,0 +1,54 @@
+{
+  "TranslationProperties": {
+    "Name": "nonsinn_mining.items.NonSinn_Bergbauhammer_Copper.name",
+    "Description": "nonsinn_mining.items.NonSinn_Bergbauhammer_Copper.description"
+  },
+  "Parent": "Tool_Pickaxe_Copper",
+  "Icon": "Icons/ItemsGenerated/NonSinn_Bergbauhammer_Copper.png",
+  "Categories": [
+    "Items.Tools"
+  ],
+  "Quality": "Common",
+  "ItemLevel": 15,
+  "MaxStack": 1,
+  "Model": "Items/NonSinn/MiningTweaks/Bergbauhammer_Copper.blockymodel",
+  "Texture": "Items/NonSinn/MiningTweaks/Bergbauhammer_Copper_Texture.png",
+  "PlayerAnimationsId": "Pickaxe",
+  "Recipe": {
+    "TimeSeconds": 6.0,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Copper",
+        "Quantity": 14
+      },
+      {
+        "ItemId": "Ingredient_Leather_Light",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Crystal_White",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "NonSinn_Mining_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "NonSinn_Mining_Hammers"
+        ]
+      }
+    ]
+  },
+  "MaxDurability": 500,
+  "Repairable": false,
+  "Tags": {
+    "Type": [
+      "Tool"
+    ],
+    "Family": [
+      "NonSinnMining"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "TranslationProperties": {
+    "Name": "nonsinn_mining.items.NonSinn_Resonanzrohling_Iron.name",
+    "Description": "nonsinn_mining.items.NonSinn_Resonanzrohling_Iron.description"
+  },
+  "Parent": "Ingredient_Bar_Iron",
+  "Icon": "Icons/ItemsGenerated/NonSinn_Resonanzrohling_Iron.png",
+  "Quality": "Uncommon",
+  "MaxStack": 20,
+  "Recipe": {
+    "TimeSeconds": 6.0,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "NonSinn_Resonanzsplitter",
+        "Quantity": 16
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "NonSinn_Modifier_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "NonSinn_Modifier_Parts"
+        ]
+      }
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ],
+    "Family": [
+      "NonSinnModifier"
+    ]
+  },
+  "Model": "Resources/Materials/Ingot.blockymodel",
+  "Texture": "Resources/Materials/Ingot_Textures/Iron.png",
+  "PlayerAnimationsId": "Item"
+}

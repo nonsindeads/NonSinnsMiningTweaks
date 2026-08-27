@@ -1,0 +1,173 @@
+{
+  "TranslationProperties": {
+    "Name": "nonsinn_mining.items.NonSinn_Bergbauwerkbank.name",
+    "Description": "nonsinn_mining.items.NonSinn_Bergbauwerkbank.description"
+  },
+  "Icon": "Icons/ItemsGenerated/NonSinn_Bergbauwerkbank.png",
+  "Categories": [
+    "Furniture.Benches"
+  ],
+  "Recipe": {
+    "TimeSeconds": 10.0,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 12
+      },
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 16
+      },
+      {
+        "ItemId": "Ingredient_Bar_Copper",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ingredient_Leather_Light",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Cyan",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Tinkering"
+        ]
+      }
+    ]
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "Light": {
+      "Color": "#167",
+      "Radius": 0
+    },
+    "Particles": [
+      {
+        "SystemId": "Block_Gem_Sparks",
+        "TargetNodeName": "Effect_Core_Mining",
+        "Scale": 0.25
+      }
+    ],
+    "CustomModel": "Blocks/NonSinn/MiningTweaks/Bergbauwerkbank.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/NonSinn/MiningTweaks/Bergbauwerkbank_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "VariantRotation": "NESW",
+    "HitboxType": "Bench_Workbench2",
+    "Bench": {
+      "Type": "Crafting",
+      "Id": "NonSinn_Mining_Bench",
+      "Categories": [
+        {
+          "Id": "NonSinn_Mining_Hammers",
+          "Icon": "Icons/CraftingCategories/MiningTweaks/Hammers.png",
+          "Name": "nonsinn_mining.benchCategories.hammers"
+        },
+        {
+          "Id": "NonSinn_Mining_Shovels",
+          "Icon": "Icons/CraftingCategories/MiningTweaks/Shovels.png",
+          "Name": "nonsinn_mining.benchCategories.shovels"
+        },
+        {
+          "Id": "NonSinn_Mining_Stations",
+          "Icon": "Icons/CraftingCategories/MiningTweaks/Stations.png",
+          "Name": "nonsinn_mining.benchCategories.stations"
+        }
+      ],
+      "LocalOpenSoundEventId": "SFX_Weapon_Bench_Open",
+      "LocalCloseSoundEventId": "SFX_Weapon_Bench_Close",
+      "CompletedSoundEventId": "SFX_Workbench_Craft",
+      "FailedSoundEventId": "SFX_Generic_Crafting_Failed",
+      "BenchUpgradeSoundEventId": "SFX_Workbench_Upgrade_Start_Default",
+      "BenchUpgradeCompletedSoundEventId": "SFX_Workbench_Upgrade_Complete_Default",
+      "TierLevels": [
+        {
+          "CraftingTimeReductionModifier": 0.0,
+          "UpgradeRequirement": {
+            "Material": [
+              {"ItemId": "Ingredient_Bar_Iron", "Quantity": 20},
+              {"ItemId": "Ingredient_Bar_Copper", "Quantity": 12},
+              {"ItemId": "Ingredient_Leather_Medium", "Quantity": 8},
+              {"ItemId": "Ingredient_Crystal_Cyan", "Quantity": 6}
+            ],
+            "TimeSeconds": 15.0
+          }
+        },
+        {
+          "CraftingTimeReductionModifier": 0.1,
+          "UpgradeRequirement": {
+            "Material": [
+              {"ItemId": "Ingredient_Bar_Thorium", "Quantity": 18},
+              {"ItemId": "Ingredient_Bar_Cobalt", "Quantity": 10},
+              {"ItemId": "Ingredient_Leather_Heavy", "Quantity": 8},
+              {"ItemId": "Ingredient_Crystal_Purple", "Quantity": 8},
+              {"ItemId": "NonSinn_Resonanzsplitter", "Quantity": 30}
+            ],
+            "TimeSeconds": 25.0
+          }
+        },
+        {
+          "CraftingTimeReductionModifier": 0.2
+        }
+      ]
+    },
+    "BlockEntity": {
+      "Components": {
+        "BenchBlock": {}
+      }
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches"
+      }
+    },
+    "BlockParticleSetId": "Wood",
+    "ParticleColor": "#6b4429",
+    "BlockSoundSetId": "Wood",
+    "PhysicalMaterialId": "Wood",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "TextureComputedColor": "#473326"
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.42,
+    "Rotation": [
+      22.5,
+      45.0,
+      22.5
+    ],
+    "Translation": [
+      12.9,
+      -11.7
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Bench"
+    ],
+    "Family": [
+      "NonSinnMining"
+    ]
+  },
+  "MaxStack": 1,
+  "ItemLevel": 20,
+  "ItemSoundSetId": "ISS_Blocks_Wood"
+}

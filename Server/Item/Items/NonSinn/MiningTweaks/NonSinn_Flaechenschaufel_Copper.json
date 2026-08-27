@@ -1,0 +1,20 @@
+{
+  "TranslationProperties": {"Name": "nonsinn_mining.items.NonSinn_Flaechenschaufel_Copper.name", "Description": "nonsinn_mining.items.NonSinn_Flaechenschaufel_Copper.description"},
+  "Parent": "Tool_Shovel_Copper",
+  "Icon": "Icons/ItemsGenerated/NonSinn_Flaechenschaufel_Copper.png",
+  "Categories": ["Items.Tools"],
+  "Quality": "Common",
+  "ItemLevel": 15,
+  "MaxStack": 1,
+  "Model": "Items/NonSinn/MiningTweaks/Flaechenschaufel_Copper.blockymodel",
+  "Texture": "Items/NonSinn/MiningTweaks/Flaechenschaufel_Copper_Texture.png",
+  "Recipe": {
+    "TimeSeconds": 5.0,
+    "KnowledgeRequired": false,
+    "Input": [{"ItemId": "Ingredient_Bar_Copper", "Quantity": 8}, {"ItemId": "Ingredient_Leather_Light", "Quantity": 3}, {"ItemId": "Ingredient_Crystal_White", "Quantity": 1}],
+    "BenchRequirement": [{"Id": "NonSinn_Mining_Bench", "Type": "Crafting", "Categories": ["NonSinn_Mining_Shovels"]}]
+  },
+  "MaxDurability": 300,
+  "Repairable": false,
+  "Tags": {"Type": ["Tool"], "Family": ["NonSinnMining"]}
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" shape-rendering="crispEdges">
+  <rect width="64" height="64" fill="#4a2d1d"/>
+  <rect x="0" y="0" width="64" height="8" fill="#6b4429"/>
+  <path d="M0 16H64M0 32H64M0 48H64" stroke="#2d1a12" stroke-width="2"/>
+  <path d="M8 0V64M27 0V64M48 0V64" stroke="#5a3823" stroke-width="2"/>
+  <rect x="64" width="64" height="64" fill="#323943"/>
+  <rect x="64" width="64" height="7" fill="#69727d"/>
+  <path d="M66 18L126 8M66 38L126 28M70 60L124 50" stroke="#454e59" stroke-width="2"/>
+  <circle cx="76" cy="14" r="2" fill="#aeb6bf"/><circle cx="116" cy="45" r="2" fill="#171c22"/>
+  <rect y="64" width="64" height="64" fill="#a14c24"/>
+  <rect y="64" width="64" height="7" fill="#e28a3b"/>
+  <path d="M4 82H60M4 103H60M14 66V126M47 66V126" stroke="#6c2c18" stroke-width="2"/>
+  <circle cx="12" cy="76" r="2" fill="#ffd06a"/><circle cx="52" cy="116" r="2" fill="#5a2114"/>
+  <rect x="64" y="64" width="32" height="64" fill="#159baa"/>
+  <rect x="68" y="68" width="24" height="56" fill="#51e7ef"/>
+  <path d="M68 96L92 72M68 116L92 92" stroke="#d6ffff" stroke-width="3"/>
+  <rect x="96" y="64" width="32" height="64" fill="#38231e"/>
+  <path d="M96 72L128 88M96 88L128 104M96 104L128 120" stroke="#7a4637" stroke-width="5"/>
+</svg>

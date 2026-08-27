@@ -1,0 +1,45 @@
+{
+  "TranslationProperties": {
+    "Name": "nonsinn_mining.items.NonSinn_Resonanzrohling_Thorium.name",
+    "Description": "nonsinn_mining.items.NonSinn_Resonanzrohling_Thorium.description"
+  },
+  "Parent": "Ingredient_Bar_Thorium",
+  "Icon": "Icons/ItemsGenerated/NonSinn_Resonanzrohling_Thorium.png",
+  "Quality": "Rare",
+  "MaxStack": 20,
+  "Recipe": {
+    "TimeSeconds": 8.0,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Thorium",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "NonSinn_Resonanzsplitter",
+        "Quantity": 24
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "NonSinn_Modifier_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "NonSinn_Modifier_Parts"
+        ],
+        "RequiredTierLevel": 2
+      }
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ],
+    "Family": [
+      "NonSinnModifier"
+    ]
+  },
+  "Model": "Resources/Materials/Ingot.blockymodel",
+  "Texture": "Resources/Materials/Ingot_Textures/Thorium.png",
+  "PlayerAnimationsId": "Item"
+}

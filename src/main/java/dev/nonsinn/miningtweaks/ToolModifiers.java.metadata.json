@@ -1,0 +1,4 @@
+{
+  "summary":  "Updated ToolModifiers.java to add support for detecting vanilla metal tools, calculating proportional recycling yields based on durability ratio, and returning metal bars and Resonanzsplittern without exceeding 100% of crafting costs.",
+  "updatedAt":  "2026-08-17T17:36:14.728898Z"
+}

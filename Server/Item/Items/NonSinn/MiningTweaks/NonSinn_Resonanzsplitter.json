@@ -1,0 +1,24 @@
+{
+  "TranslationProperties": {
+    "Name": "nonsinn_mining.items.NonSinn_Resonanzsplitter.name",
+    "Description": "nonsinn_mining.items.NonSinn_Resonanzsplitter.description"
+  },
+  "Parent": "Ingredient_Crystal_White",
+  "Icon": "Icons/ItemsGenerated/NonSinn_Resonanzsplitter.png",
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "Quality": "Uncommon",
+  "MaxStack": 500,
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ],
+    "Family": [
+      "NonSinnMining"
+    ]
+  },
+  "Model": "Resources/Crystals/Crystal_Fragment.blockymodel",
+  "Texture": "Resources/Crystals/Crystal_Fragment_Textures/Purple.png",
+  "PlayerAnimationsId": "Item"
+}

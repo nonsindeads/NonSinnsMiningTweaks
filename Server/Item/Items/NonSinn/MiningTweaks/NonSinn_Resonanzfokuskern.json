@@ -1,0 +1,60 @@
+{
+  "TranslationProperties": {
+    "Name": "nonsinn_mining.items.NonSinn_Resonanzfokuskern.name",
+    "Description": "nonsinn_mining.items.NonSinn_Resonanzfokuskern.description"
+  },
+  "Parent": "Ingredient_Crystal_Purple",
+  "Icon": "Icons/ItemsGenerated/NonSinn_Resonanzfokuskern.png",
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "Quality": "Rare",
+  "MaxStack": 20,
+  "Recipe": {
+    "TimeSeconds": 8.0,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ItemId": "NonSinn_Resonanzsplitter",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Endgame_Swamp_Crocodile_Scale",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Endgame_Swamp_Ingot",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Swamp_Gem",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Crystal_White",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "NonSinn_Modifier_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "NonSinn_Modifier_Parts"
+        ],
+        "RequiredTierLevel": 2
+      }
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ],
+    "Family": [
+      "NonSinnMining"
+    ]
+  },
+  "Model": "Resources/Crystals/Crystal_Big.blockymodel",
+  "Texture": "Resources/Crystals/Crystal_Big_Textures/Purple.png",
+  "PlayerAnimationsId": "Item"
+}

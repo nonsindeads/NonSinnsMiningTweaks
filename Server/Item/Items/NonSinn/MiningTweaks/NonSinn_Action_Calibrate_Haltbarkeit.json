@@ -1,0 +1,43 @@
+{
+  "TranslationProperties": {
+    "Name": "nonsinn_mining.items.NonSinn_Action_Calibrate_Haltbarkeit.name",
+    "Description": "nonsinn_mining.items.NonSinn_Action_Calibrate_Haltbarkeit.description"
+  },
+  "Parent": "Ingredient_Bar_Iron",
+  "Icon": "Icons/ItemsGenerated/NonSinn_Mod_Haltbarkeit_Base.png",
+  "Categories": [],
+  "Quality": "Uncommon",
+  "MaxStack": 1,
+  "Recipe": {
+    "TimeSeconds": 1.5,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ItemId": "NonSinn_Resonanzrohling_Copper",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Purple",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "NonSinn_Modifier_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "NonSinn_Modifier_Calibration"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ],
+    "Family": [
+      "NonSinnForgeAction"
+    ]
+  }
+}

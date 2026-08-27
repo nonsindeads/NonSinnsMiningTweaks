@@ -1,0 +1,44 @@
+{
+  "TranslationProperties": {
+    "Name": "nonsinn_mining.items.NonSinn_Resonanzrohling_Copper.name",
+    "Description": "nonsinn_mining.items.NonSinn_Resonanzrohling_Copper.description"
+  },
+  "Parent": "Ingredient_Bar_Copper",
+  "Icon": "Icons/ItemsGenerated/NonSinn_Resonanzrohling_Copper.png",
+  "Quality": "Common",
+  "MaxStack": 20,
+  "Recipe": {
+    "TimeSeconds": 4.0,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Copper",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "NonSinn_Resonanzsplitter",
+        "Quantity": 8
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "NonSinn_Modifier_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "NonSinn_Modifier_Parts"
+        ]
+      }
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ],
+    "Family": [
+      "NonSinnModifier"
+    ]
+  },
+  "Model": "Resources/Materials/Ingot.blockymodel",
+  "Texture": "Resources/Materials/Ingot_Textures/Copper.png",
+  "PlayerAnimationsId": "Item"
+}

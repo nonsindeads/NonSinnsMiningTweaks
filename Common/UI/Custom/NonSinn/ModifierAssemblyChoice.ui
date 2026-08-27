@@ -1,0 +1,23 @@
+$C = "../Common.ui";
+
+Button #Choice {
+  LayoutMode: Left;
+  Anchor: (Bottom: 6, Height: 58);
+  Padding: (Horizontal: 9, Vertical: 7);
+  Style: (
+    Default: (Background: (TexturePath: "../Common/OptionBackgroundPatch.png", Border: 16)),
+    Hovered: (Background: (TexturePath: "../Common/OptionBackgroundPatch.png", Border: 16, Color: #ffffff(0.55))),
+    Pressed: (Background: (TexturePath: "../Common/OptionBackgroundPatch.png", Border: 16, Color: #ffffff(0.75)))
+  );
+
+  ItemGrid #ChoiceIcon {
+    Anchor: (Width: 44, Height: 44, Right: 10);
+    SlotsPerRow: 1;
+    Style: (SlotSize: 44, SlotIconSize: 42, SlotSpacing: 0, SlotBackground: "../Common/BlockSelectorSlotBackground.png");
+  }
+
+  Label #ChoiceText {
+    Style: (...$C.@DefaultLabelStyle, TextColor: #e8dcc8, Wrap: true);
+    FlexWeight: 1;
+  }
+}

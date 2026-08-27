@@ -1,0 +1,134 @@
+{
+  "lod": "auto",
+  "nodes": [
+    {
+      "id": "root",
+      "name": "R-Attachment",
+      "position": { "x": -16, "y": 0, "z": 0 },
+      "shape": { "type": "none", "textureLayout": {}, "settings": { "isPiece": true }, "visible": true },
+      "children": [
+        {
+          "id": "top", "name": "Heavy oak worktop", "position": { "x": 24, "y": 25, "z": -8 },
+          "shape": {
+            "offset": { "x": 0, "y": 0, "z": 0 }, "stretch": { "x": 1, "y": 1, "z": 1 }, "type": "box",
+            "textureLayout": {
+              "top": { "offset": { "x": 0, "y": 0 } }, "bottom": { "offset": { "x": 0, "y": 0 } },
+              "front": { "offset": { "x": 0, "y": 0 } }, "back": { "offset": { "x": 0, "y": 0 }, "mirror": { "x": true, "y": false } },
+              "left": { "offset": { "x": 0, "y": 0 } }, "right": { "offset": { "x": 0, "y": 0 } }
+            },
+            "settings": { "size": { "x": 60, "y": 7, "z": 31 } }, "unwrapMode": "custom", "visible": true, "doubleSided": false, "shadingMode": "standard"
+          }, "children": []
+        },
+        {
+          "id": "shelf", "name": "Lower oak shelf", "position": { "x": 24, "y": 5, "z": -8 },
+          "shape": {
+            "offset": { "x": 0, "y": 0, "z": 0 }, "stretch": { "x": 1, "y": 1, "z": 1 }, "type": "box",
+            "textureLayout": {
+              "top": { "offset": { "x": 0, "y": 0 } }, "bottom": { "offset": { "x": 0, "y": 0 } },
+              "front": { "offset": { "x": 0, "y": 0 } }, "back": { "offset": { "x": 0, "y": 0 } },
+              "left": { "offset": { "x": 0, "y": 0 } }, "right": { "offset": { "x": 0, "y": 0 } }
+            },
+            "settings": { "size": { "x": 50, "y": 5, "z": 24 } }, "unwrapMode": "custom", "visible": true, "doubleSided": false, "shadingMode": "standard"
+          }, "children": []
+        },
+        {
+          "id": "leg-left", "name": "Left reinforced leg", "position": { "x": 1, "y": 13, "z": -8 },
+          "shape": {
+            "offset": { "x": 0, "y": 0, "z": 0 }, "stretch": { "x": 1, "y": 1, "z": 1 }, "type": "box",
+            "textureLayout": {
+              "top": { "offset": { "x": 0, "y": 0 } }, "bottom": { "offset": { "x": 0, "y": 0 } },
+              "front": { "offset": { "x": 0, "y": 0 } }, "back": { "offset": { "x": 0, "y": 0 } },
+              "left": { "offset": { "x": 0, "y": 0 } }, "right": { "offset": { "x": 0, "y": 0 } }
+            },
+            "settings": { "size": { "x": 8, "y": 26, "z": 10 } }, "unwrapMode": "custom", "visible": true, "doubleSided": false, "shadingMode": "standard"
+          }, "children": []
+        },
+        {
+          "id": "leg-right", "name": "Right reinforced leg", "position": { "x": 47, "y": 13, "z": -8 },
+          "shape": {
+            "offset": { "x": 0, "y": 0, "z": 0 }, "stretch": { "x": 1, "y": 1, "z": 1 }, "type": "box",
+            "textureLayout": {
+              "top": { "offset": { "x": 0, "y": 0 } }, "bottom": { "offset": { "x": 0, "y": 0 } },
+              "front": { "offset": { "x": 0, "y": 0 } }, "back": { "offset": { "x": 0, "y": 0 } },
+              "left": { "offset": { "x": 0, "y": 0 } }, "right": { "offset": { "x": 0, "y": 0 } }
+            },
+            "settings": { "size": { "x": 8, "y": 26, "z": 10 } }, "unwrapMode": "custom", "visible": true, "doubleSided": false, "shadingMode": "standard"
+          }, "children": []
+        },
+        {
+          "id": "backboard", "name": "Tool backboard", "position": { "x": 24, "y": 39, "z": -22 },
+          "shape": {
+            "offset": { "x": 0, "y": 0, "z": 0 }, "stretch": { "x": 1, "y": 1, "z": 1 }, "type": "box",
+            "textureLayout": {
+              "top": { "offset": { "x": 0, "y": 0 } }, "bottom": { "offset": { "x": 0, "y": 0 } },
+              "front": { "offset": { "x": 0, "y": 0 } }, "back": { "offset": { "x": 0, "y": 0 } },
+              "left": { "offset": { "x": 0, "y": 0 } }, "right": { "offset": { "x": 0, "y": 0 } }
+            },
+            "settings": { "size": { "x": 58, "y": 24, "z": 5 } }, "unwrapMode": "custom", "visible": true, "doubleSided": false, "shadingMode": "standard"
+          }, "children": []
+        },
+        {
+          "id": "workplate", "name": "Blackened iron workplate", "position": { "x": 28, "y": 29, "z": -7 },
+          "shape": {
+            "offset": { "x": 0, "y": 0, "z": 0 }, "stretch": { "x": 1, "y": 1, "z": 1 }, "type": "box",
+            "textureLayout": {
+              "top": { "offset": { "x": 64, "y": 0 } }, "bottom": { "offset": { "x": 64, "y": 0 } },
+              "front": { "offset": { "x": 64, "y": 0 } }, "back": { "offset": { "x": 64, "y": 0 } },
+              "left": { "offset": { "x": 64, "y": 0 } }, "right": { "offset": { "x": 64, "y": 0 } }
+            },
+            "settings": { "size": { "x": 34, "y": 2, "z": 22 } }, "unwrapMode": "custom", "visible": true, "doubleSided": false, "shadingMode": "standard"
+          }, "children": []
+        },
+        {
+          "id": "anvil-base", "name": "Integrated anvil base", "position": { "x": 3, "y": 30, "z": -8 },
+          "shape": {
+            "offset": { "x": 0, "y": 0, "z": 0 }, "stretch": { "x": 1, "y": 1, "z": 1 }, "type": "box",
+            "textureLayout": {
+              "top": { "offset": { "x": 64, "y": 0 } }, "bottom": { "offset": { "x": 64, "y": 0 } },
+              "front": { "offset": { "x": 64, "y": 0 } }, "back": { "offset": { "x": 64, "y": 0 } },
+              "left": { "offset": { "x": 64, "y": 0 } }, "right": { "offset": { "x": 64, "y": 0 } }
+            },
+            "settings": { "size": { "x": 18, "y": 8, "z": 18 } }, "unwrapMode": "custom", "visible": true, "doubleSided": false, "shadingMode": "standard"
+          }, "children": [
+            {
+              "id": "anvil-top", "name": "Anvil face", "position": { "x": 0, "y": 7, "z": 0 },
+              "shape": {
+                "offset": { "x": 0, "y": 0, "z": 0 }, "stretch": { "x": 1, "y": 1, "z": 1 }, "type": "box",
+                "textureLayout": {
+                  "top": { "offset": { "x": 64, "y": 0 } }, "bottom": { "offset": { "x": 64, "y": 0 } },
+                  "front": { "offset": { "x": 64, "y": 0 } }, "back": { "offset": { "x": 64, "y": 0 } },
+                  "left": { "offset": { "x": 64, "y": 0 } }, "right": { "offset": { "x": 64, "y": 0 } }
+                },
+                "settings": { "size": { "x": 28, "y": 6, "z": 14 } }, "unwrapMode": "custom", "visible": true, "doubleSided": false, "shadingMode": "standard"
+              }, "children": []
+            }
+          ]
+        },
+        {
+          "id": "vise", "name": "Copper-banded vise", "position": { "x": 30, "y": 31, "z": 9 },
+          "shape": {
+            "offset": { "x": 0, "y": 0, "z": 0 }, "stretch": { "x": 1, "y": 1, "z": 1 }, "type": "box",
+            "textureLayout": {
+              "top": { "offset": { "x": 0, "y": 64 } }, "bottom": { "offset": { "x": 0, "y": 64 } },
+              "front": { "offset": { "x": 0, "y": 64 } }, "back": { "offset": { "x": 0, "y": 64 } },
+              "left": { "offset": { "x": 0, "y": 64 } }, "right": { "offset": { "x": 0, "y": 64 } }
+            },
+            "settings": { "size": { "x": 16, "y": 10, "z": 8 } }, "unwrapMode": "custom", "visible": true, "doubleSided": false, "shadingMode": "standard"
+          }, "children": []
+        },
+        {
+          "id": "crystal-gauge", "name": "Cyan mining gauge", "position": { "x": 43, "y": 40, "z": -18 },
+          "shape": {
+            "offset": { "x": 0, "y": 0, "z": 0 }, "stretch": { "x": 1, "y": 1, "z": 1 }, "type": "box",
+            "textureLayout": {
+              "top": { "offset": { "x": 64, "y": 64 } }, "bottom": { "offset": { "x": 64, "y": 64 } },
+              "front": { "offset": { "x": 64, "y": 64 } }, "back": { "offset": { "x": 64, "y": 64 } },
+              "left": { "offset": { "x": 64, "y": 64 } }, "right": { "offset": { "x": 64, "y": 64 } }
+            },
+            "settings": { "size": { "x": 8, "y": 14, "z": 3 } }, "unwrapMode": "custom", "visible": true, "doubleSided": false, "shadingMode": "standard"
+          }, "children": []
+        }
+      ]
+    }
+  ]
+}

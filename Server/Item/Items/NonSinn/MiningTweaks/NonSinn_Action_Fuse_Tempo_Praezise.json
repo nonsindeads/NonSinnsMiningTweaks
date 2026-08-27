@@ -1,0 +1,43 @@
+{
+  "TranslationProperties": {
+    "Name": "nonsinn_mining.items.NonSinn_Action_Fuse_Tempo_Praezise.name",
+    "Description": "nonsinn_mining.items.NonSinn_Action_Fuse_Tempo_Praezise.description"
+  },
+  "Parent": "Ingredient_Bar_Iron",
+  "Icon": "Icons/ItemsGenerated/NonSinn_Mod_Tempo_Praezise.png",
+  "Categories": [],
+  "Quality": "Rare",
+  "MaxStack": 1,
+  "Recipe": {
+    "TimeSeconds": 2.0,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ItemId": "NonSinn_Mod_Tempo_Standard",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "NonSinn_Resonanzsplitter",
+        "Quantity": 6
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "NonSinn_Modifier_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "NonSinn_Modifier_Fusion"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ],
+    "Family": [
+      "NonSinnForgeAction"
+    ]
+  }
+}
